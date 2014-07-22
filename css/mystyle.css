@@ -1,0 +1,106 @@
+body {
+  padding-top: 10px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.btn-bar{
+  margin-top: 15px;
+  .btn.buttonBackground(grey, black);
+}
+
+.entry{
+  margin-top: 5px;
+}
+
+.nav{
+ margin-left: 15px;
+}
+
+.input-group{
+ margin-left: 5px;
+}
+
+.nav-color{
+	color : black;
+}
+
+#film {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#film .affiche {
+  width: 30%;
+  float: left;
+}
+
+#film h1 {
+  text-align: center;
+}
+
+#film #enhaut {
+  width: 100%;
+} 
+
+#film #infos {
+  float: right;
+  width: 60%;
+  text-align: right;
+  margin-right: 1em;
+}
+
+#film #description {
+    clear: both;         /* remove */
+  text-align: justify;
+  text-indent: 3em;
+  padding-top: 1em;
+  margin-left: 1em;
+}
+
+
+#artiste_mois {
+  float:left;
+  width: 45%;
+}
+
+#meilleurs_films, #personalized_films {
+  float: right;
+  width: 40%;
+  text-align: left;
+}
+
+#meilleurs_films a, #personalized_films a , #personalized_films span {
+  margin-right: 0.5em;
+}
+
+
+
+#search_submit {
+  width: 40em;
+}
+
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > .gs {
+  content: "\2605";
+}
+.rating > .bs {
+  content: "\2605";
+}
+.rating  a:hover:before,
+.rating  a:hover ~ a:before {
+   content: "\2605";
+   position: absolute;
+   text-decoration:bold;
+}
